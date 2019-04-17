@@ -1,0 +1,139 @@
+h1,
+h2,
+h3 {
+    font-family: fantasy;
+    font-weight: bold;
+    color: beige;
+}
+
+body {
+    background: url(./lambo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:bisque;
+    font-size: large;
+}
+
+nav {
+    padding: 40px;
+    margin: 40px;
+    float: right;
+}
+
+/* a {
+    color: white;
+    text-decoration: blink;
+    padding: 30px;
+    margin-left: 100px;
+    font-size: larger;
+    font-style: italic;
+    width: 50px; */
+/* } */
+
+a:hover {
+    color: green;
+    background: white;
+    width: 45px;
+    /* border-radius: 50px; */
+    height: 50px;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px;
+    width: 45px;
+    border-radius: 30px;
+    height: 180px;
+    color: aliceblue;
+    margin-left: 70px;
+    font-style: italic;
+    
+}
+
+ul li {
+    margin-right: 30px;
+}
+
+ol li {
+    margin-left: 350px;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+/* a.active,
+.nav a:hover {
+    background-color: greenyellow;
+    color: black;
+    width: 40px;
+    border-radius: 50px;
+} */
+
+a{
+    width: 10px;
+    float: center;
+    margin-left: 120px;
+    text-align: center;
+    color: red;
+}
+
+.container .box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: gold;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.container .box .imageBox{
+    position: relative;
+    overflow: hidden;
+
+}
+.container .box .imageBox img {
+    max-width: 100%;
+    height: 300px;
+    width: 400px;
+    transition: transform 2s;
+}
+.container .box:hover .imageBox img {
+    transform: scale(1.2);
+}
+.container .box .details {
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    color: bisque;
+    background: rgba(0, 0, 0, .8);
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+.container .box:hover .details {
+    transform: scaleY(1);
+
+}
+
+.container .box .details .content{
+    position: absolute;
+    top: 100px;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+
+}
+.contact {
+    display: inline;
+    background: chartreuse;
+    font-style: italic;
+    font-size: larger;
+    width: 100%;
+    padding-top: 40px;
+}

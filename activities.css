@@ -1,0 +1,104 @@
+h1,
+h2,
+h3 {
+    font-family: fantasy;
+    font-weight: bold;
+}
+
+body {
+    background: url(./lambo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: bisque;
+    font-size: larger;
+}
+
+.nav {
+    padding: 40px;
+    margin: 40px;
+    float: right;
+}
+
+/* a {
+    color: white;
+    text-decoration: blink;
+    padding: 30px;
+    margin-left: 100px;
+    font-size: larger;
+    font-style: italic;
+    width: 50px; */
+/* } */
+
+a:hover {
+    color: green;
+    background: white;
+    width: 45px;
+    /* border-radius: 50px; */
+    height: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px;
+    width: 45px;
+    border-radius: 30px;
+    height: 180px;
+    color: aliceblue;
+    margin-left: 70px;
+}
+
+ul li {
+    margin-right: 30px;
+}
+
+ol li {
+    margin-left: 350px;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+/* a.active,
+.nav a:hover {
+    background-color: greenyellow;
+    color: black;
+    width: 40px;
+    border-radius: 50px;
+} */
+
+a {
+    width: 10px;
+    float: center;
+    margin-left: 120px;
+    text-align: center;
+    color: red;
+}
+
+/* .nav a {
+    text-decoration: none;
+    font-size: larger;
+    font-family: verdana;
+    font-weight: bold;
+    width: 10%;
+    height: 90%;
+    margin: 5px 0;
+    float: left;
+    display: inline-block;
+    background-color: black;
+    line-height: 90px;
+    text-align: center;
+    color: chartreuse;
+    border-radius: 50px;
+} */
+h3 {
+    text-decoration: underline;
+}
+li{
+    text-decoration: underline;
+    font-style: italic;
+}
